@@ -1,5 +1,6 @@
 "use client";
 
+import { MapIcon } from "lucide-react";
 import Image from "next/image";
 
 export function Location() {
@@ -23,6 +24,14 @@ export function Location() {
                 className="w-full h-auto object-contain"
               />
             </div>
+            <a
+              href="https://maps.app.goo.gl/3SfozMBi1FezWrcn8"
+              target="_blank"
+              className="flex items-center justify-center rounded-lg hover:shadow-lg transition-shadow duration-30 p-4 space-x-2 mt-4 bg-white hover:bg-slate-200 cursor-pointer"
+            >
+              <MapIcon />
+              <p>View In Google Maps</p>
+            </a>
           </div>
 
           <div className="w-full">

@@ -13,6 +13,7 @@ import {
   Camera,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -68,9 +69,7 @@ export function HeroSection() {
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
               >
                 <Calendar className="w-5 h-5 mr-2" />
-                <a href="https://wa.me/6281287734417" target="_blank">
-                  Rencakan Waktu
-                </a>
+                <Link href="#contact">Rencakan Waktu</Link>
               </Button>
             </div>
           </div>

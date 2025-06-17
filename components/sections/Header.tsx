@@ -28,17 +28,18 @@ export function Header() {
             >
               Detail
             </Link>
-            <Link
-              href="#features"
-              className="text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              Features
-            </Link>
+
             <Link
               href="#facilities"
               className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               Fasilitas
+            </Link>
+            <Link
+              href="#location"
+              className="text-gray-600 hover:text-blue-600 transition-colors"
+            >
+              lokasi
             </Link>
             <Link
               href="#contact"
