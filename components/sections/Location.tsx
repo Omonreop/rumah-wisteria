@@ -27,7 +27,8 @@ export function Location() {
             <a
               href="https://maps.app.goo.gl/3SfozMBi1FezWrcn8"
               target="_blank"
-              className="flex items-center justify-center rounded-lg hover:shadow-lg transition-shadow duration-30 p-4 space-x-2 mt-4 bg-white hover:bg-slate-200 cursor-pointer"
+              className="flex items-center justify-center rounded-lg transition duration-200 p-4 space-x-2 mt-4 bg-white cursor-pointer 
+             hover:bg-gradient-to-r hover:from-red-500 hover:to-blue-500 hover:text-white shadow-sm hover:shadow-md"
             >
               <MapIcon />
               <p>View In Google Maps</p>

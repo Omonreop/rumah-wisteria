@@ -43,7 +43,7 @@ export function ContactSection() {
               <a
                 href="https://wa.me/6281287734417"
                 target="_blank"
-                className="flex items-center p-3 space-x-4 hover:bg-green-600 hover:rounded-sm hover:shadow-lg  transition-shadow duration-300"
+                className="flex items-center p-2 space-x-4 hover:bg-green-600 hover:rounded-lg hover:shadow-lg  transition-shadow duration-300"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
                   <MessageCircle className="w-6 h-6 text-blue-600" />

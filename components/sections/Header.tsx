@@ -39,7 +39,7 @@ export function Header() {
               href="#location"
               className="text-gray-600 hover:text-blue-600 transition-colors"
             >
-              lokasi
+              Lokasi
             </Link>
             <Link
               href="#contact"

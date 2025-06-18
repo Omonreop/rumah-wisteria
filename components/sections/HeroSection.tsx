@@ -2,16 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import {
-  MapPin,
-  Bed,
-  Bath,
-  Square,
-  Car,
-  Calendar,
-  Star,
-  Camera,
-} from "lucide-react";
+import { Bed, Bath, Square, Car, Calendar, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -56,9 +47,9 @@ export function HeroSection() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <span className="text-gray-600">
-                  Lokasi cakung jakarta timur Sebelah smaa Jgc Deket ke aoen
-                  ikea jgc Akses tol cakung timur 20mnt ke kelapa gading Akses
-                  tol cakung-kelapa gading 10mnt ke bekasi
+                  Lokasi Cakung Jakarta Timur Dekat Dengan Dekat Ke Aeon Ikea
+                  Jakarta Garden City, Akses Tol Cakung Timur 20 Menit Ke Kelapa
+                  Gading, Akses Tol Cakung - Kelapa Gading, 10 Menit Ke Bekasi.
                 </span>
               </div>
             </div>

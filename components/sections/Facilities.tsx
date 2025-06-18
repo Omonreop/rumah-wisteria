@@ -32,9 +32,9 @@ export function Facilities() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
           <div className="space-y-6">
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto text-justify">
               Clubhouse mewah lengkap dengan gimnasium dan kolam renang, taman
               bermain anak-anak, halaman piknik, dan tempat barbekyu - pasti ada
               sesuatu untuk semua orang di Wisteria. Taman linear sepanjang 260
@@ -45,11 +45,11 @@ export function Facilities() {
             </p>
           </div>
 
-          <Carousel className="w-full relative">
+          <Carousel className="w-full relativ">
             <CarouselContent>
               {fasilitas.map((src, index) => (
                 <CarouselItem key={index}>
-                  <div className="relative w-full h-[350px] md:h-[400px] lg:h-[450px]">
+                  <div className="relative w-full h-[350px]  lg:h-[400px]">
                     <Image
                       src={src}
                       alt={`Facility ${index + 1}`}
@@ -60,8 +60,8 @@ export function Facilities() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full shadow p-2" />
+            <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full shadow p-2" />
           </Carousel>
         </div>
       </div>
